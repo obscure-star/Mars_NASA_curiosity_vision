@@ -23,7 +23,7 @@ The following REQUIRED features are completed:
 The following STRETCH features are implemented:
 
 - [X] Add a query to the API request
-  - The query I added is **https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=${polishDate(date.dayOfMonth, date.monthValue-1, date.year)}&api_key=<API_KEY>**
+  - The query I added is **https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY**
 - [X] Build a UI to allow users to add that query
 
 The following EXTRA features are implemented:
